@@ -1,0 +1,21 @@
+{
+  "name": "gpt-suggest-associations",
+  "version": "1.0.0",
+  "description": "Supporting code for the technical report 'Supplementing the O*NET Sources of Additional Information: A Preliminary Exploration of the Use of ChatGPT'",
+  "main": "suggest-assns.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onetcenter/gpt-suggest-associations.git"
+  },
+  "author": "National Center for O*NET Development",
+  "license": "MIT",
+  "homepage": "https://github.com/onetcenter/gpt-suggest-associations/tree/main#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "sleep-promise-native": "^1.0.0",
+    "xlsx-populate": "^1.21.0"
+  }
+}
